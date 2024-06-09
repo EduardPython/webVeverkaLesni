@@ -1,0 +1,119 @@
+/* styles.css */
+
+/* ------------------------------
+   Obecné stylování
+   ------------------------------ */
+   body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+/* ------------------------------
+   Hlavička
+   ------------------------------ */
+header {
+    background: #6c9c6f;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* ------------------------------
+   Navigační menu
+   ------------------------------ */
+nav ul {
+    list-style: none;
+    padding: 0;
+    background: #335d3e;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background: #4c7a5e;
+}
+
+/* ------------------------------
+   Hlavní obsah
+   ------------------------------ */
+main {
+    padding: 20px;
+    background: #fff;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+section {
+    padding: 20px 0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+/* ------------------------------
+   Sekce "Kameny-Drahokamy"
+   ------------------------------ */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #335d3e;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* ------------------------------
+   Patička stránky
+   ------------------------------ */
+footer {
+    background: #335d3e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    clear: both;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    color: #fff;
+}
