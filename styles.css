@@ -78,7 +78,7 @@ p {
 }
 
 /* ------------------------------
-   Sekce "Kameny-Drahokamy"
+   Sekce "Kameny-Drahokamy" a "Bylinářství"
    ------------------------------ */
 ul {
     list-style: none;
@@ -111,9 +111,4 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-}
-
-footer p {
-    margin: 0;
-    color: #fff;
 }
